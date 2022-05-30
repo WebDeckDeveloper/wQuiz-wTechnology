@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.main_div {
+	width: 100vw;
+	min-height: 100vh;
+	display: grid;
+	place-items:  center;
+	background-color: hsl(0, 93%, 94%);
+}
+
+.inner_div {
+	width: 90vh;
+	background-color: #fff;
+	padding: 2rem 6rem;
+	border-radius: 1rem;
+	box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.inner_div h2{
+	font-size: 29px;
+	margin: 1rem 0 2rem 0;
+}
+
+.inner_div li{
+	font-size: 20px;
+	margin-top: 15px;
+	list-style: none;
+}
+
+input {
+	cursor: pointer;
+}
+
+.submit_button {
+	padding: 0.5rem 0.5rem;
+	outline: none;
+	background-color: #ff6969;
+	border: none;
+	margin: auto;
+	text-transform: uppercase;
+	display: block;
+}
+
+.submit_button:hover {
+	background-color: #c42c2c;
+	cursor: pointer;
+}
+
+.a_remove1 {
+	text-decoration: none;
+}
+
+.bg {
+	background-color: hsl(206, 92%, 94%);
+}
+
+.header_logo {
+	background-color:white;
+	padding: 9px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.main_content {
+	padding: 9px;
+	text-align: center;
+	font-size: 1rem;
+	margin-top: 15px;
+}
+
+.pad_ve {
+	padding: 0.5rem 0.5rem;
+	outline: none;
+	background-color: #69D2FF;
+	border: none;
+	margin: auto;
+	text-transform: uppercase;
+	display: block;
+	border-radius: 10px;
+}
+
+.pad_ve:hover {
+	background-color: #2C97C4;
+	cursor: pointer;
+}
+
